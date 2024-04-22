@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Layout from '../components/layout'
+import { StaticImage } from "gatsby-plugin-image"
 
 const pageStyles = {
   color: "#232129",
@@ -130,6 +131,10 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
       <p>This is the children.</p>
+      <StaticImage
+        alt="Franko the hacker"
+        src="../images/franko.jpg"
+      />
     </Layout>
   )
 }
