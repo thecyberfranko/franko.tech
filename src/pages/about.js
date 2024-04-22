@@ -2,6 +2,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 // Define component
 const AboutPage = () => {
@@ -13,6 +14,6 @@ const AboutPage = () => {
 }
 
 //  Head component to apply metadata
-export const Head = () => <title>About</title>
+export const Head = () => <Seo title="About" />
 // Export component
 export default AboutPage
