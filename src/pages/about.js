@@ -1,15 +1,14 @@
 // Import React
 import * as React from 'react'
 import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-// Defina component
+// Define component
 const AboutPage = () => {
     return (
-        <main>
-            <h1>About</h1>
-            <Link to="/">Home</Link>
+        <Layout pageTitle="About">
             <p>Hi, my name is franko and I am the architect of this website.</p>
-        </main>
+        </Layout>
     )
 }
 
